@@ -1,0 +1,76 @@
+body-html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+background-image {
+background-size: cover;/*ajuster l'image pour couvrir tout l'element*/
+background-position: center;/*centrer l'image dans l'element*/
+background-repeat: no-repeat;/*evite que l'image se repete*/
+height: 100vh;/*hauteur de l'element est egale à la hauteur de la fênetre*/
+float: left;
+}
+/*Reset the marges and paddingse֎*/
+body,h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/*style global*/ 
+body{
+font-family:Arial, Helvetica, sans-serif;
+line-height: 1.6;
+color: #04066d;
+}
+header{
+    background-color: #003366;/*Bleu foncé*/
+    color: white;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+navbar{
+    display: flex;
+    justify-content: space-around;/*espacer les elements*/
+    align-items: /*aligner les elements horizontalement*/;
+
+} 
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+section img {
+    max-width: 100px;
+    display: block;
+    margin: 10px 0;
+}
+ul{
+    list-style-type: none;
+}
+ul li {
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003366/* Bleu foncée*/;
+    color: white;
+}
+/*Responsivité*/
+@media (max-width: 768px){nav ul{flex direction:colum} nav ul li{ margin: 10px 0;} section img{max width:100%}}
